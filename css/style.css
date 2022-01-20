@@ -21,6 +21,7 @@
             font-family: 'Roboto', sans-serif;
             font-weight: 700;
             font-size: 18px;
+            color: #000;
         }
         .navbar-light .navbar-nav .nav-link {
             color: #333;
@@ -69,11 +70,69 @@
                 background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
                 color: #fff;
                 font-size: 18px;
-                font-weight: 700;
+                font-weight: 400;
                 border: 1px solid #fff;
-                display: inline-block;
+                 display: inline-block;
+                transition: 2s;
             }
+            .buy-now:hover {
+                border-radius: 50px;
+                background: transparent;
+                border-color: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+                color: olivedrab;
+                border-color: olivedrab;
+            }
+            .buy-now i {
+                margin-right: 10px;
+            }
+
 /* banner part css  */
+/* product part css */
+.card {
+    padding: 10px;
+    box-shadow: 2px 2px 21px gray;
+    border-radius: 0.75rem;
+}
+.jacket-img{
+    background: #F1F1F1;
+    border-radius: 50px;
+}
+h4.price {
+    margin-right: 38px;
+    font-size: 32px;
+    font-weight: 700;
+    color: gold;
+}
+a.buy-now-product {
+    text-decoration: none;
+    border: 1px solid none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #fff;
+     display: inline-block;
+}
+.pricing a i {
+    margin-right: 5px;
+}
+.product-img {
+    padding: 15%;
+}
+.product-area {
+    padding: 80px 0;
+}
+.product-area-title {
+    padding-bottom: 20px;
+}
+.card-title {
+    margin-bottom: .5rem;
+    font-size: 25px;
+    font-weight: 700;
+}
+/* product part css */
 
 /* font-family: 'Bebas Neue', cursive;
 font-family: 'Poppins', sans-serif; 
