@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* header part css  */
+        .logo{
+            width: 50%;
+        }
+        .nav-link {
+            margin-left: 12px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+        }
+/* header part css  */
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Poppins', sans-serif; 
+font-family: 'Roboto', sans-serif;*/
+
+
+
+/* responsive part css  */
+
+
+
+@media (min-width: 576px) { 
+    .logo {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+ }
+
+
+@media (min-width: 768px) { }
+
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) {  }
+
+
+@media (min-width: 1400px) {  }
+/* responsive part css  */
