@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+        /* common utilities css */
+        h1, h2, h3, h4{
+            font-family: 'Bebas Neue', cursive;
+            font-family: 'Poppins', sans-serif; 
+            font-weight: bold;
+        }
+        /* common utilities css */
 /* header part css  */
         .logo{
             width: 50%;
@@ -16,7 +22,58 @@
             font-weight: 700;
             font-size: 18px;
         }
+        .navbar-light .navbar-nav .nav-link {
+            color: #333;
+        }
+        .navbar {
+            position: fixed;
+            width: 100%;
+        }
+        .navbar {
+            position: fixed;
+            width: 100%;
+        }
+        header {
+            position: absolute;
+            width: 100%;
+        }
+
 /* header part css  */
+
+/* banner part css  */
+            .banner{
+                background-color: #FFFBF0;
+                padding: 100px 0;
+            }
+            .banner-con {
+                padding-top: 80px;
+            }
+            .banner-con h1 {
+                font-weight: 700;
+                font-size: 65px;
+                text-transform: uppercase;
+            }
+            
+            .banner-con h1 span {
+                color: #FABE4C;
+            }       
+            .banner-con p {
+                font-size: 18px;
+                font-weight: 400;
+            }      
+            a.buy-now {
+                text-decoration: none;
+                border: 1px solid none;
+                padding: 10px 35px;
+                border-radius: 5px;
+                background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                border: 1px solid #fff;
+                display: inline-block;
+            }
+/* banner part css  */
 
 /* font-family: 'Bebas Neue', cursive;
 font-family: 'Poppins', sans-serif; 
@@ -28,12 +85,14 @@ font-family: 'Roboto', sans-serif;*/
 
 
 
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
     .logo {
         position: relative;
         left: 50%;
         transform: translate(-50%);
+        padding-bottom: 25px;
     }
+
  }
 
 
