@@ -133,6 +133,41 @@ a.buy-now-product {
     font-weight: 700;
 }
 /* product part css */
+/* featured part  */
+.feature-part{
+    padding: 80px 0;
+}
+.feature-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 8px gray;
+    border-radius: 10px;
+    width: 86%;
+    margin-bottom: 20px;
+}
+.feature-img {
+    width: 40%;
+    left: 20%;
+    position: relative;
+}
+.feature-txt h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.feature-txt p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.feature-txt {
+    padding-top: 15px;
+    position: relative;
+    right: 10%;
+}
+/* featured part  */
 
 /* font-family: 'Bebas Neue', cursive;
 font-family: 'Poppins', sans-serif; 
